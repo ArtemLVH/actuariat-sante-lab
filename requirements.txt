@@ -1,0 +1,6 @@
+numpy
+pandas
+statsmodels
+# bonus explicabilité :
+# xgboost
+# shap
