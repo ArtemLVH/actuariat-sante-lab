@@ -1,6 +1,6 @@
 # Pack XAI — Explicabilité & validation (SHAP × LIME × MetaQuery)
 
-**Objectif du jour** : connecter tes deux repos — un pipeline de validation de bout en bout :
+**Objectif du jour** : un pipeline de validation de bout en bout :
 extraction TRACÉE (manifeste MetaQuery) → modèle de rachat (XGBoost) → explications
 (SHAP global + local, LIME en contre-expertise) → **rapport de validation auto-généré**.
 
