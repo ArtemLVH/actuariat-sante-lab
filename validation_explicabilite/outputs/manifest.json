@@ -1,0 +1,28 @@
+{
+  "dataset": "data_rachats.csv",
+  "sha256": "7914716c2b393d03e47b1df84871b1838ef56170b67a8f240290dab61358d6e2",
+  "lignes": 12000,
+  "colonnes": [
+    "age",
+    "anciennete",
+    "encours",
+    "tmg",
+    "ecart_taux",
+    "csp_code",
+    "region_code",
+    "rachat"
+  ],
+  "requete_executee": "SELECT age, anciennete, encours, tmg, ecart_taux, csp_code, region_code, rachat\nFROM portefeuille_epargne\nWHERE date_observation = '2026-06-30';",
+  "dictionnaire": {
+    "age": "âge de l'assuré (années)",
+    "anciennete": "ancienneté du contrat (années)",
+    "encours": "encours du contrat (€)",
+    "tmg": "taux minimum garanti (%)",
+    "ecart_taux": "taux de marché − taux servi (%)",
+    "csp_code": "code CSP (variable de contrôle)",
+    "region_code": "code région (variable de contrôle)",
+    "rachat": "cible : 1 si rachat total sur la période"
+  },
+  "horodatage": "2026-07-13 15:12:05",
+  "producteur": "metaquery_bridge v0.1 (mode autonome)"
+}
