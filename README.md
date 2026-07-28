@@ -10,6 +10,7 @@ collective santé, sur données **100 % simulées** (aucune donnée réelle).
 | `glm_prime_pure.py` | GLM fréquence (Poisson) × coût (Gamma), lien log → la grille multiplicative e^β ; les deux failles des moyennes par case | la tarification : l'usine à barème |
 | `recettage_bordereaux.py` | contrôles R0-R3 sur bordereaux (référentiels, cohérence, vraisemblance), anomalies injectées, audit.json | le recettage : la 1re ligne de contrôle, pont métier ↔ validation |
 | `psap_cadences.py` | triangle de paiements → cadences → chain ladder → PSAP ; remise à l'ultime d'un S/P récent | le provisionnement, et le pont vers la tarification |
+| `validation_explicabilite/` | extraction gouvernée MetaQuery (extract scellé SHA-256 + manifeste) → XGBoost → SHAP × LIME → rapport de validation auto-généré | l'explicabilité comme outil de validation 2e ligne |
 
 ## Projet lié
 [MetaQuery Actuary](https://github.com/ArtemLVH/metaquery_actuary) — gouvernance d'extraction SQL au niveau champ : dictionnaire de champs gouverné, sélection par cas d'usage, SQL généré seulement si les règles passent (V1 mono-source → V3 jointures explicites), sorties query.sql / audit.json / explain.txt. Né de l'expérience en validation de modèles ; `recettage_bordereaux.py` en applique la philosophie au CR santé.
