@@ -3,8 +3,10 @@
 *Généré automatiquement — pipeline `actuariat-sante-lab` × `metaquery_actuary`*
 
 ## 1. Traçabilité des données (manifeste MetaQuery)
-- Dataset : `data_rachats.csv` — 12000 lignes — SHA-256 `7914716c2b393d03…`
-- Horodatage : 2026-07-13 15:12:05 — producteur : metaquery_bridge v0.1 (mode autonome)
+- Source : `PORTEFEUILLE_EPARGNE` — statut requête : **executee**
+- Extraction : `extract.csv` — 12000 lignes — SHA-256 `7914716c2b393d03…`
+- Qualité : **PASS** — contrôles : non_empty_extract
+- Horodatage : 2026-07-28T18:13:27Z — producteur : metaquery_actuary V1.1
 - Requête exécutée jointe au manifeste (`outputs/manifest.json`).
 
 ## 2. Performance du modèle
