@@ -1,0 +1,23 @@
+{
+  "R1_sceaux": {
+    "verdict": "PASS",
+    "sha256_extract": "7914716c2b393d03e47b1df84871b1838ef56170b67a8f240290dab61358d6e2",
+    "sha256_manifeste": "7914716c2b393d03e47b1df84871b1838ef56170b67a8f240290dab61358d6e2",
+    "sha256_source": "7914716c2b393d03e47b1df84871b1838ef56170b67a8f240290dab61358d6e2"
+  },
+  "R3_vraisemblance": {
+    "verdict": "PASS",
+    "taux_rachat": 0.0772,
+    "lignes": 12000,
+    "controles": {
+      "colonnes_attendues_dans_l_ordre": "PASS",
+      "aucune_valeur_manquante": "PASS",
+      "rachat_binaire": "PASS",
+      "age_entre_18_et_100": "PASS",
+      "anciennete_positive": "PASS",
+      "encours_strictement_positif": "PASS",
+      "taux_rachat_entre_4_et_12_pct": "PASS"
+    }
+  },
+  "verdict_global": "PASS"
+}
